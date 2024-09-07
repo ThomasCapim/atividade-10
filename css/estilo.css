@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Poppins';
 }
@@ -8,6 +14,7 @@ header, #principal, #second, #contato, #stream {
 	display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 50px;
 }
 
 .link-menu {
@@ -38,6 +45,8 @@ main {
 
 h1, h2 {
   font-family: 'Amatic SC';
+  font-size: 40px;
+  text-align: end;
 }
 
 #second a{
@@ -79,8 +88,37 @@ nav {
   padding: 0;
 }
 
-#sec-ctd{
+figure{
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
 
+figure img{
+  max-width: 300px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+main #principal{
+  padding: 30px;
+  gap: 70px;
+}
+
+#sec_ctd{
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  gap: 100px;
+}
+
+p {
+  text-align: justify;
+  width: 460px;
 }
 
 .cartaz{
