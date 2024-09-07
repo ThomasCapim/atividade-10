@@ -5,7 +5,8 @@ body {
 }
 
 header, #principal, #second, #contato, #stream {
-	
+	display: flex;
+  justify-content: center;
 }
 
 .link-menu {
@@ -46,7 +47,8 @@ footer {
 /* Coisa */
 
 #logo{
-
+  width: 400px;
+  
 }
 
 #sec-ctd{
@@ -86,6 +88,9 @@ footer {
 }
 
 #sinopse{
-  
+
 }
 
+figure{
+
+}
