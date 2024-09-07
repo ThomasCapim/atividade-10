@@ -6,12 +6,17 @@ body {
 
 header, #principal, #second, #contato, #stream {
 	display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .link-menu {
   color: #fff;
   background-color: #555;
+  padding: 10px;
+  text-decoration: none;
+
+  border-radius: 10%;
 }
 
 .f {
@@ -47,8 +52,31 @@ footer {
 /* Coisa */
 
 #logo{
-  width: 400px;
-  
+  height: 150px;
+  display: flex;
+  justify-content:center;
+  flex: 1;
+}
+
+.item-menu{
+  list-style-type: none;
+}
+
+.link-menu:hover{
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+#menu{
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 #sec-ctd{
