@@ -12,7 +12,7 @@ body {
 
 header, #principal, #second, #contato, #stream {
 	display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 50px;
 }
@@ -111,9 +111,9 @@ main #principal{
 #sec_ctd{
   display: flex;
   flex-direction: column;
-
+  width: 700px;
   flex: 1;
-  gap: 100px;
+  gap: 50px;
 }
 
 p {
@@ -123,6 +123,7 @@ p {
 
 .cartaz{
  margin: 100px 0px;
+ gap: -50px;
 }
 
 .capa{
@@ -144,7 +145,7 @@ footer div div a:hover{
 }
 
 #contato{
-
+  padding: 20px;
 }
 
 #email{
@@ -152,7 +153,13 @@ footer div div a:hover{
 }
 
 #social{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
+#social a img{
+  height: 40px;
 }
 
 #capa{
@@ -177,4 +184,9 @@ footer div div a:hover{
 
 figure{
 
+}
+
+section #principal{
+  display:flex;
+  justify-content: center;
 }
