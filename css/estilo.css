@@ -122,10 +122,28 @@ p {
 }
 
 .cartaz{
-
+ margin: 100px 0px;
 }
 
 .capa{
+  max-width: 200px;
+}
+
+section #second{
+  display: flex;
+  justify-content: center;
+}
+
+footer div div a{
+  color: white;
+  text-decoration: none;
+}
+
+footer div div a:hover{
+  text-decoration: underline;
+}
+
+#contato{
 
 }
 
