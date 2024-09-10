@@ -164,11 +164,11 @@ footer div div a:hover{
 }
 
 #capa{
-
+  max-width: 301px;
 }
 
 #resumo{
-
+ width: 400px;
 }
 
 #descricao{
@@ -206,11 +206,7 @@ a:hover {
 }
 
 #sinopse{
-
-}
-
-figure{
-
+  width: 400px;
 }
 
 #sec_ctd a{
