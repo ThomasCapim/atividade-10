@@ -146,6 +146,7 @@ footer div div a:hover{
 
 #contato{
   padding: 20px;
+  justify-content: space-around;
 }
 
 #email{
@@ -171,11 +172,37 @@ footer div div a:hover{
 }
 
 #descricao{
+  margin: 100px 0;
+  padding: 30px;
+  border: 1px solid black;
+}
 
+iframe {
+  
 }
 
 #acesso{
+  text-align: center;
+  padding: 30px 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 
+#acesso.m{
+  display: flex;
+  gap: 30px;
+}
+
+#acesso a img{
+  width: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #sinopse{
@@ -186,7 +213,24 @@ figure{
 
 }
 
+#sec_ctd a{
+  text-decoration: underline;
+}
+
 section #principal{
   display:flex;
   justify-content: center;
+}
+
+ul, ol{
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+#second div#descricao{
+  padding-right: 400px;
+}
+
+#second #descricao iframe{
+  padding: 10px;
 }
