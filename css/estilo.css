@@ -186,6 +186,8 @@ iframe {
   padding: 30px 60px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-family: "Amatic SC";
+  font-size: 20px;
 }
 
 #acesso.m{
